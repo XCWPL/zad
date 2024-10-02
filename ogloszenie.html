@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="PL">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal ogłoszeniowy</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<script src="skrypt.js"></script>
+<body>
+    <div id="wrapper">
+        <div id="baner">
+            <h1>Portal ogłoszeniowy</h1>
+        </div>
+        <div id="pierwszy">
+            <img src="img/logo-male.png" alt="">
+        </div>
+        <div id="drugi">
+            <h3>Adres</h3>
+            <p>ul.Morska 45 Gdynia</p>
+        </div>
+        <div id="trzeci">
+            <h3>telefon</h3>
+            <p>601601601</p>
+        </div>
+        <div id="czwarty">
+            <h3>mail</h3>
+            <p>ogloszenia@poczta.pl</p>
+        </div>
+        <div id="lewy">
+            <h2>Ceny ogloszeń</h2>
+            <table border="1px">
+                <tr>
+                    <td>Liczba ogloszeń</td>
+                    <td>Cena Ogloszenia</td>
+                    <td>Bonus</td>
+                </tr>
+                <tr>
+                    <td>1-50</td>
+                    <td>2 PLN</td>
+                    <td rowspan="2">Subskrypcja newslettera to upusy 0,20 na ogłoszenie</td>
+                </tr>
+                <tr>
+                    <td>51 i więcej</td>
+                    <td>1 PLN</td>
+
+                </tr>
+            </table>
+        </div>
+        <div id="srodek">
+            <h2>Witamy na stronie naszego portalu!</h2>
+            <img src="img/logo-duze.png" alt="">
+        </div>
+        <div id="prawy">
+            <h2>Ile kosztuje ogłoszenie?</h2>
+            <p>Podaj liczbę ogłoszeń:</p>
+            <input type="number" name="" id="nr"><br>
+            <input type="checkbox" name="" id="check">Policz upust newsletter <br>
+            <button onclick="zad1()">Oblicz</button>
+            <p id="odp"></p>
+        </div>
+        <div id="stopka">Portal ogłoszeniowy opracował Bartosz Kozak</div>
+    </div>
+</body>
+
+</html>

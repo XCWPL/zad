@@ -1,0 +1,45 @@
+#baner{
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+}
+#pierwszy,#drugi,#trzeci,#czwarty{
+    font-family: Arial;
+    background-color: #009999;
+    color: white;
+    text-align: center;
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+#lewy,#prawy{
+    background-color: #669999;
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+#srodek{
+    background-color: #99CCCC;
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    float: left;
+}
+#stopka{
+    background-color: #009999;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+table{
+    border: 1px solid green !important;
+    text-align: center !important;
+}
+button{
+    border: 0;
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
